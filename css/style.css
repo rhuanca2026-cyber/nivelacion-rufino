@@ -3,7 +3,7 @@
     padding: 0;
 }
 body{
-    font-family: 'Courier New', Courier, monospace;
+    font-family: cursive;
 }
 header{
     color: white;
@@ -11,10 +11,11 @@ header{
 }
 h1{
     background-color: rgb(0, 119, 255);
-    padding: 10px;
+    padding: 10px 20px;
 }
 nav{
     background-color: hwb(231 2% 40% / 0.938);
+    padding: 10px;
 }
 nav ul li{
     list-style: none;
@@ -22,40 +23,30 @@ nav ul li{
     margin-right: 20px;
 }
 main{
-    border: 1px solid blue;
-    overflow: auto;
-}
-section {
     width: 60%;
     float: left;
     box-sizing: border-box;
-    margin: 10px;
-}
-p{
-    background-color: rgba(47, 195, 240, 0.144);
     padding: 10px;
 }
 main section article header{
     padding: 10px;
 }
-main section article{
-    margin: 10px;
+section{
+    padding: 10px;
 }
-main section article + article{
-    margin: 0;
+p{
+    background-color: rgba(47, 195, 240, 0.144);
+    padding: 10px;
 }
-main aside{
-    height: 100%;
-    margin: 10px;
-}
+
 aside{
     background-color: antiquewhite;
     height: 100%;
     width: 30%;
-    float: left;
+    float: right;
     box-sizing: border-box;
     padding: 10px;
-    margin: 10px;
+    margin: 15px;
 }
 footer{
     background-color: black;
